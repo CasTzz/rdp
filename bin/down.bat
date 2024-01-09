@@ -6,11 +6,7 @@ curl -s -L -o login.py https://www.dropbox.com/scl/fi/25scrjwr7uowudanpoy5j/logi
 curl -s -L -o C:\Users\Public\Desktop\install.bat https://www.dropbox.com/scl/fi/un5i7o3d559rdjv3kcs4n/install.bat?rlkey=tpp1noqra3fcz3gu2yi7ifb0e&dl=0
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
-del C:\Users\Public\Desktop\Telegram.exe
 C:\Users\Public\Desktop\Winrar.exe /S
-del C:\Users\Public\Desktop\Winrar.exe
-del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
-del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
 set password=060789
 powershell -Command "Set-LocalUser -Name 'runneradmin' -Password (ConvertTo-SecureString -AsPlainText '%password%' -Force)"
 
